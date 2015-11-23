@@ -1,0 +1,5 @@
+J:\Mitchell Int\ClsLibraryMitchell\ClsLibraryMitchell\bin\Debug\ClsLibraryMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\ClsLibraryMitchell\bin\Debug\ClsLibraryMitchell.pdb
+J:\Mitchell Int\ClsLibraryMitchell\ClsLibraryMitchell\obj\Debug\ClsLibraryMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\ClsLibraryMitchell\obj\Debug\ClsLibraryMitchell.pdb
+J:\Mitchell Int\ClsLibraryMitchell\ClsLibraryMitchell\obj\Debug\ClsLibraryMitchell.csprojResolveAssemblyReference.cache

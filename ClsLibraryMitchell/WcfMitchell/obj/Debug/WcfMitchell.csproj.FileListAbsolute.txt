@@ -1,0 +1,8 @@
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\bin\WcfMitchell.dll.config
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\bin\WcfMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\bin\WcfMitchell.pdb
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\bin\ClsLibraryMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\bin\ClsLibraryMitchell.pdb
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\obj\Debug\WcfMitchell.csprojResolveAssemblyReference.cache
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\obj\Debug\WcfMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\WcfMitchell\obj\Debug\WcfMitchell.pdb

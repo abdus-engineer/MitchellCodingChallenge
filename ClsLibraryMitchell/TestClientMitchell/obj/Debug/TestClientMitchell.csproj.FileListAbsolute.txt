@@ -1,0 +1,8 @@
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\bin\TestClientMitchell.dll.config
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\bin\TestClientMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\bin\TestClientMitchell.pdb
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\obj\Debug\TestClientMitchell.csprojResolveAssemblyReference.cache
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\obj\Debug\TestClientMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\obj\Debug\TestClientMitchell.pdb
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\bin\ClsLibraryMitchell.dll
+J:\Mitchell Int\ClsLibraryMitchell\TestClientMitchell\bin\ClsLibraryMitchell.pdb

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CRUDMitchell" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:51021/CRUDMitchell.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:51021/CRUDMitchell.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:51021/CRUDMitchell.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ClsLibraryMitchell" />
+      <xsd:import schemaLocation="http://localhost:51021/CRUDMitchell.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Xml.Serialization" />
+      <xsd:import schemaLocation="http://localhost:51021/CRUDMitchell.svc?xsd=xsd4" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICRUDMitchell_CreateNewClaim_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewClaim" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_CreateNewClaim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewClaimResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetClaimDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetClaimDetails" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetClaimDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetClaimDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetAllClaimsList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllClaimsList" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetAllClaimsList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllClaimsListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetAllClaimsDataSet_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllClaimsDataSet" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetAllClaimsDataSet_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllClaimsDataSetResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetVechiles_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetVechiles" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_GetVechiles_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetVechilesResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_DeleteClaim_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteClaim" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_DeleteClaim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteClaimResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_UpdateClaim_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClaim" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_UpdateClaim_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateClaimResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_TestDBConnection_InputMessage">
+    <wsdl:part name="parameters" element="tns:TestDBConnection" />
+  </wsdl:message>
+  <wsdl:message name="ICRUDMitchell_TestDBConnection_OutputMessage">
+    <wsdl:part name="parameters" element="tns:TestDBConnectionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICRUDMitchell">
+    <wsdl:operation name="CreateNewClaim">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/CreateNewClaim" message="tns:ICRUDMitchell_CreateNewClaim_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/CreateNewClaimResponse" message="tns:ICRUDMitchell_CreateNewClaim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetClaimDetails">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/GetClaimDetails" message="tns:ICRUDMitchell_GetClaimDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/GetClaimDetailsResponse" message="tns:ICRUDMitchell_GetClaimDetails_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllClaimsList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/GetAllClaimsList" message="tns:ICRUDMitchell_GetAllClaimsList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/GetAllClaimsListResponse" message="tns:ICRUDMitchell_GetAllClaimsList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllClaimsDataSet">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/GetAllClaimsDataSet" message="tns:ICRUDMitchell_GetAllClaimsDataSet_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/GetAllClaimsDataSetResponse" message="tns:ICRUDMitchell_GetAllClaimsDataSet_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetVechiles">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/GetVechiles" message="tns:ICRUDMitchell_GetVechiles_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/GetVechilesResponse" message="tns:ICRUDMitchell_GetVechiles_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteClaim">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/DeleteClaim" message="tns:ICRUDMitchell_DeleteClaim_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/DeleteClaimResponse" message="tns:ICRUDMitchell_DeleteClaim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClaim">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/UpdateClaim" message="tns:ICRUDMitchell_UpdateClaim_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/UpdateClaimResponse" message="tns:ICRUDMitchell_UpdateClaim_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="TestDBConnection">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICRUDMitchell/TestDBConnection" message="tns:ICRUDMitchell_TestDBConnection_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICRUDMitchell/TestDBConnectionResponse" message="tns:ICRUDMitchell_TestDBConnection_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICRUDMitchell" type="tns:ICRUDMitchell">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="CreateNewClaim">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/CreateNewClaim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetClaimDetails">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/GetClaimDetails" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllClaimsList">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/GetAllClaimsList" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllClaimsDataSet">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/GetAllClaimsDataSet" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetVechiles">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/GetVechiles" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteClaim">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/DeleteClaim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateClaim">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/UpdateClaim" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="TestDBConnection">
+      <soap:operation soapAction="http://tempuri.org/ICRUDMitchell/TestDBConnection" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CRUDMitchell">
+    <wsdl:port name="BasicHttpBinding_ICRUDMitchell" binding="tns:BasicHttpBinding_ICRUDMitchell">
+      <soap:address location="http://localhost:51021/CRUDMitchell.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="WcfMitchell.Repository">
+    <Position X="6.75" Y="4.75" Width="5.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAQAAAgAAAAAAkAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WcfMitchell.RepositoryHelper">
+    <Position X="7.5" Y="0.75" Width="5.25" />
+    <AssociationLine Name="Repository" Type="WcfMitchell.Repository" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="10.25" Y="4.036" />
+        <Point X="10.25" Y="4.411" />
+        <Point X="9.375" Y="4.411" />
+        <Point X="9.375" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAiICAAACAAAAACAAAAASAAAAACAIAAAAAAIAAAA=</HashCode>
+      <FileName>RepositoryHelper.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Repository" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="WcfMitchell.CRUDMitchell">
+    <Position X="0.75" Y="3.75" Width="5" />
+    <AssociationLine Name="RepositoryHelper" Type="WcfMitchell.RepositoryHelper" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="4.43" />
+        <Point X="6.125" Y="4.43" />
+        <Point X="6.125" Y="2.375" />
+        <Point X="7.5" Y="2.375" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAACACAAAAAAAIQCAAAAIQAAAAACAIAAAQAAIAAAA=</HashCode>
+      <FileName>CRUDMitchell.svc.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="RepositoryHelper" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="WcfMitchell.ICRUDMitchell">
+    <Position X="0.75" Y="0.75" Width="5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACACAAAAAAAAQCAAAAAQAAAAACAIAAAAAAIAAAA=</HashCode>
+      <FileName>ICRUDMitchell.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
